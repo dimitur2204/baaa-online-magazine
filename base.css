@@ -1,20 +1,53 @@
-header{
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.45), 
-        rgba(0, 0, 0, 0.45)
-      ), url('./images/kilian-seiler-PZLgTUAhxMM-unsplash.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 80vh;
+:root{
+    --main-blue:#0071ce;
+    --main-dark:#333333;
+    --white:#ffffff;
+    --off-white:#eeeeee;
+    --accent:#f29c1f;
 }
 
-img{
-    width: 100%;
-    height: 100%;
+body{
+    font-family: 'Roboto', sans-serif;
+    color: var(--white);
+    background-color: var(--off-white);
+    font-size: 12px;
 }
 
-.logo{
-    width: 40px;
-    height: 40px;
+h1{
+    font-size: 45px;
 }
+
+h2{
+    font-size: 42px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+h4{
+    font-size: 28px;
+}
+
+h5{
+    font-size: 20px;
+}
+
+h6{
+    font-size: 14px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: roc-grotesk, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: var(--main-blue);
+}
+
+.container{
+    padding: 0 50px;
+}
+
+
