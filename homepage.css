@@ -25,7 +25,7 @@ header{
     column-gap: 40px;
     row-gap: 20px;
     grid-template-rows: repeat(2,1fr);
-    grid-template-columns: 400px 300px;
+    grid-template-columns: 500px 400px;
 }
 
 .article-card{
@@ -38,7 +38,7 @@ header{
     grid-row: span 2;
     background-color: var(--main-dark);
     color: var(--white);
-    width: 400px;
+    width: 500px;
 }
 
 .small-article{
@@ -46,7 +46,7 @@ header{
     grid-row: span 1;
     color: var(--main-dark);
     background-color: var(--white);
-    width: 300px;
+    width: 400px;
 }
 
 .tag{
