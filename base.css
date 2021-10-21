@@ -1,8 +1,12 @@
 :root{
     --main-blue:#0071ce;
     --main-dark:#333333;
+    --main-black:#000000;
+    --main-grey:#7a7a7a;
+    --main-border:#c5c5c5;
     --white:#ffffff;
     --off-white:#eeeeee;
+    --dark-white:#c0c0c0;
     --accent:#f29c1f;
 }
 
@@ -15,26 +19,36 @@ body{
 
 h1{
     font-size: 45px;
+    margin-bottom: 26px;
 }
 
 h2{
     font-size: 42px;
+    margin-bottom: 24px;
 }
 
 h3{
     font-size: 35px;
+    margin-bottom: 22px;
 }
 
 h4{
     font-size: 28px;
+    margin-bottom: 20px;
 }
 
 h5{
     font-size: 20px;
+    margin-bottom: 18px;
 }
 
 h6{
     font-size: 14px;
+    margin-bottom: 16   px;
+}
+
+p{
+    margin-bottom: 15px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -46,8 +60,25 @@ a{
     color: var(--main-blue);
 }
 
+dfn{
+    color: #7a7a7a;
+    font-size: 12px;
+}
+
 .container{
-    padding: 0 50px;
+    padding: 0 120px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-fluid{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.container-margin{
+    max-width: 900px;
+    margin: 0 120px;
 }
 
 

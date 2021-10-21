@@ -1,0 +1,32 @@
+button{
+    border: none;
+    outline: none;
+}
+
+button{
+    height: 35px;
+    max-width: 130px;
+    color: var(--white);
+    background-color: var(--main-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.2s ease-in;
+}
+
+button:hover{
+    background-color: var(--off-white);
+    color: var(--main-blue);
+    border: 1px solid var(--main-blue);
+}
+
+button.ghost{
+    color: var(--main-blue);
+    background-color: inherit;
+    border: none;
+    border-radius: 10%;
+}
+
+button.ghost:hover{
+    background-color: var(--dark-white);
+}

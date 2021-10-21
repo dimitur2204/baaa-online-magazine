@@ -19,7 +19,7 @@ header{
 }
 
 .content-grid{
-    margin: 40px 0;
+    margin: 40px auto;
     display: grid;
     justify-content: center;
     column-gap: 40px;
