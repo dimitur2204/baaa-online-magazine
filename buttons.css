@@ -12,6 +12,7 @@ button{
     justify-content: center;
     align-items: center;
     transition: background-color 0.2s ease-in;
+    border: 1px solid transparent;
 }
 
 button:hover{
@@ -29,4 +30,15 @@ button.ghost{
 
 button.ghost:hover{
     background-color: var(--dark-white);
+}
+
+button.inverse{
+    color: var(--main-blue);
+    background-color: var(--white);
+}
+
+button.inverse:hover{
+    background-color: var(--main-blue);
+    color: var(--white);
+    border: 1px solid var(--white);
 }

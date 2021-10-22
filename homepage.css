@@ -18,6 +18,17 @@ header{
     align-items: center;
 }
 
+
+.header-content{
+    text-align: center;
+}
+
+.search-input{
+    width: 100%;
+    max-width: 486px;
+    margin-top: 20px;
+}
+
 .content-grid{
     margin: 40px auto;
     display: grid;
@@ -60,4 +71,41 @@ header{
 
 .text h5{
     margin-bottom: 10px;
+}
+
+.newsletter{
+    background: rgb(0,113,206);
+    background: linear-gradient(90deg, rgba(0,113,206,1) 35%, rgba(61,152,214,1) 100%);
+    border-radius: 10px;
+    height: 200px;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.newsletter-title{
+    margin-bottom: 3px;
+}
+
+.mail-icon{
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+}
+
+.subscribe{
+    display: flex;
+}
+
+.subscribe-btn{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+.newsletter-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
 }

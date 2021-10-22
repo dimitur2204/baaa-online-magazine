@@ -22,12 +22,14 @@
 	<body>
 		<nav>
 			<section>
-				<img
-					class="logo"
-					src="./images/screwdriver.png"
-					alt="Picture of screwdriver and a nut"
-				/>
-				<span class="name"><strong>FixItYourself</strong></span>
+				<a href="/">
+					<img
+						class="logo"
+						src="./images/screwdriver.png"
+						alt="Picture of screwdriver and a nut"
+					/>
+					<span class="name"><strong>FixItYourself</strong></span>
+				</a>
 			</section>
 
 			<a class="nav-link" href="#">Community</a>
@@ -103,7 +105,7 @@
 						</section>
 					</section>
 					<section class="step" id="third-step">
-						<div class="step-box">2</div>
+						<div class="step-box">3</div>
 						<section class="content container">
 							<h2>Toolbox/Organizer</h2>
 							<p class="step-text">
@@ -157,10 +159,31 @@
 				</section>
 			</section>
 			<aside class="sidenav">
-				<a href="#first-step" class="sidenav-link">Multibit screwdriver</a
-				><a href="#second-step" class="sidenav-link">Adjustable wrench</a
-				><a href="#third-step" class="sidenav-link">Toolbox</a>
+				<a href="#first-step" class="sidenav-link">
+					<img
+						class="active-triangle"
+						src="./icons/left-triangle.svg"
+						alt="left-triangle"
+					/>Multibit screwdriver</a
+				>
+
+				<a href="#second-step" class="sidenav-link">
+					<img
+						class="active-triangle"
+						src="./icons/left-triangle.svg"
+						alt="left-triangle"
+					/>Adjustable wrench</a
+				>
+
+				<a href="#third-step" class="sidenav-link">
+					<img
+						class="active-triangle"
+						src="./icons/left-triangle.svg"
+						alt="left-triangle"
+					/>Toolbox</a
+				>
 			</aside>
 		</main>
 	</body>
+	<script src="./essentials.js"></script>
 </html>

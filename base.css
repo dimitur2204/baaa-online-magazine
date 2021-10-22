@@ -10,6 +10,10 @@
     --accent:#f29c1f;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     color: var(--white);
@@ -67,7 +71,7 @@ dfn{
 
 .container{
     padding: 0 120px;
-    max-width: 900px;
+    max-width: 940px;
     margin: 0 auto;
 }
 

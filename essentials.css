@@ -8,7 +8,8 @@ main{
 
 .breadcrumbs{
     color: var(--main-blue);
-    font-size: 18px;
+    font-size: 16px;
+    padding: 25px 0;
 }
 
 .current-breadcrumb{
@@ -25,11 +26,30 @@ main{
     height: 100%;
 }
 
-.sidenav a{
+.sidenav .sidenav-link{
     color: var(--white);
     display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
+    height: 50px;
+}
+
+.sidenav .sidenav-link.active{
+    background-color: var(--main-blue);
+}
+
+.sidenav-link>.active-triangle{
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: -36px;
+}
+
+.sidenav-link.active>.active-triangle{
+    display: block;
+    width: 50px;
     height: 50px;
 }
 
